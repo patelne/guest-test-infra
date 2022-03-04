@@ -6,7 +6,7 @@ DEFAULT_TYPE='deb9'
 DEFAULT_PROJECT='gcp-guest'
 DEFAULT_ZONE='us-west1-a'
 DEFAULT_OWNER='GoogleCloudPlatform'
-DEFAULT_GIT_REF='master'
+DEFAULT_GIT_REF='main'
 DEFAULT_GCS_PATH='${SCRATCHPATH}/packages'
 DEFAULT_BUILD_DIR='.'
 
