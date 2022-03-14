@@ -23,4 +23,12 @@ module "sap_hana" {
   linux_image_project = "${var.linux_image_project}"
   instance_name = "${var.instance_name}"
   post_deployment_script = "${var.post_deployment_script}"
+
+  sap_hana_deployment_bucket = "core-connect-integration-hana-versions/latest"
+  sap_hana_sid = "MDB"
+  sap_hana_instance_number = "1"
+  sap_hana_sidadm_password = "Password1"
+  sap_hana_system_password = "Password1"
+
+  service_account = "696159017930-compute@developer.gserviceaccount.com"
 }
